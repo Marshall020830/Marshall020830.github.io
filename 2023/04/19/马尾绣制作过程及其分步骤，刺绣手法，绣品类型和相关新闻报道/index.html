@@ -4,21 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="第一个博客, 率率的主页">
-    <meta name="description" content="大家好，我是率率！
-标题1标题2Front-matter 选项中的所有内容均为非必填的。但我仍然建议至少填写 title 和 date 的值。
-
-
-
-配置选项
-默认值
-描述
-
-
-
-title
-Markdown 的文件标题
-文章标题，强烈建议">
+    <meta name="keywords" content="马尾绣制作过程及其分步骤，刺绣手法，绣品类型和相关新闻报道, 率率的主页">
+    <meta name="description" content="马尾绣制作马尾绣不是一项用马尾进行简单刺绣的工艺，需要结合许多种刺绣的技法一起来完成。详细来说，要先拿白丝线把两三根马尾绑在一起，制作成马尾线。接下来使用两根针分别穿过白丝线和马尾线，制作者根据自己的经验和想象，在布面上用马尾线来绣出各种花">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -30,7 +17,7 @@ Markdown 的文件标题
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>第一个博客 | 率率的主页</title>
+    <title>马尾绣制作过程及其分步骤，刺绣手法，绣品类型和相关新闻报道 | 率率的主页</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -345,12 +332,12 @@ Markdown 的文件标题
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/gensokyo1.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/cloth1.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">第一个博客</h1>
+                    <h1 class="description center-align post-title">马尾绣制作过程及其分步骤，刺绣手法，绣品类型和相关新闻报道</h1>
                 </div>
             </div>
         </div>
@@ -386,7 +373,7 @@ Markdown 的文件标题
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2023-04-18
+                    2023-04-19
                 </div>
                 
 
@@ -407,97 +394,30 @@ Markdown 的文件标题
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>大家好，我是率率！</p>
-<h2 id="标题1"><a href="#标题1" class="headerlink" title="标题1"></a>标题1</h2><h3 id="标题2"><a href="#标题2" class="headerlink" title="标题2"></a>标题2</h3><p><code>Front-matter</code> 选项中的所有内容均为<strong>非必填</strong>的。但我仍然建议至少填写 <code>title</code> 和 <code>date</code> 的值。</p>
-<table>
-<thead>
-<tr>
-<th>配置选项</th>
-<th>默认值</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>title</td>
-<td><code>Markdown</code> 的文件标题</td>
-<td>文章标题，强烈建议填写此选项</td>
-</tr>
-<tr>
-<td>date</td>
-<td>文件创建时的日期时间</td>
-<td>发布时间，强烈建议填写此选项，且最好保证全局唯一</td>
-</tr>
-<tr>
-<td>author</td>
-<td>根 <code>_config.yml</code> 中的 <code>author</code></td>
-<td>文章作者</td>
-</tr>
-<tr>
-<td>img</td>
-<td><code>featureImages</code> 中的某个值</td>
-<td>文章特征图，推荐使用图床(腾讯云、七牛云、又拍云等)来做图片的路径.如: <code>http://xxx.com/xxx.jpg</code></td>
-</tr>
-<tr>
-<td>top</td>
-<td><code>true</code></td>
-<td>推荐文章（文章是否置顶），如果 <code>top</code> 值为 <code>true</code>，则会作为首页推荐文章</td>
-</tr>
-<tr>
-<td>hide</td>
-<td><code>false</code></td>
-<td>隐藏文章，如果<code>hide</code>值为<code>true</code>，则文章不会在首页显示</td>
-</tr>
-<tr>
-<td>cover</td>
-<td><code>false</code></td>
-<td><code>v1.0.2</code>版本新增，表示该文章是否需要加入到首页轮播封面中</td>
-</tr>
-<tr>
-<td>coverImg</td>
-<td>无</td>
-<td><code>v1.0.2</code>版本新增，表示该文章在首页轮播封面需要显示的图片路径，如果没有，则默认使用文章的特色图片</td>
-</tr>
-<tr>
-<td>password</td>
-<td>无</td>
-<td>文章阅读密码，如果要对文章设置阅读验证密码的话，就可以设置 <code>password</code> 的值，该值必须是用 <code>SHA256</code> 加密后的密码，防止被他人识破。前提是在主题的 <code>config.yml</code> 中激活了 <code>verifyPassword</code> 选项</td>
-</tr>
-<tr>
-<td>toc</td>
-<td><code>true</code></td>
-<td>是否开启 TOC，可以针对某篇文章单独关闭 TOC 的功能。前提是在主题的 <code>config.yml</code> 中激活了 <code>toc</code> 选项</td>
-</tr>
-<tr>
-<td>mathjax</td>
-<td><code>false</code></td>
-<td>是否开启数学公式支持 ，本文章是否开启 <code>mathjax</code>，且需要在主题的 <code>_config.yml</code> 文件中也需要开启才行</td>
-</tr>
-<tr>
-<td>summary</td>
-<td>无</td>
-<td>文章摘要，自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要</td>
-</tr>
-<tr>
-<td>categories</td>
-<td>无</td>
-<td>文章分类，本主题的分类表示宏观上大的分类，只建议一篇文章一个分类</td>
-</tr>
-<tr>
-<td>tags</td>
-<td>无</td>
-<td>文章标签，一篇文章可以多个标签</td>
-</tr>
-<tr>
-<td>keywords</td>
-<td>文章标题</td>
-<td>文章关键字，SEO 时需要</td>
-</tr>
-<tr>
-<td>reprintPolicy</td>
-<td>cc_by</td>
-<td>文章转载规则， 可以是 cc_by, cc_by_nd, cc_by_sa, cc_by_nc, cc_by_nc_nd, cc_by_nc_sa, cc0, noreprint 或 pay 中的一个</td>
-</tr>
-</tbody></table>
+                <h2 id="马尾绣制作"><a href="#马尾绣制作" class="headerlink" title="马尾绣制作"></a>马尾绣制作</h2><p>马尾绣不是一项用马尾进行简单刺绣的工艺，需要结合许多种刺绣的技法一起来完成。详细来说，要先拿白丝线把两三根马尾绑在一起，制作成马尾线。接下来使用两根针分别穿过白丝线和马尾线，制作者根据自己的经验和想象，在布面上用马尾线来绣出各种花朵、飞鸟的纹饰，同时在用刚刚穿上白丝线的针在布面上把马尾线给固定住。在布面上绣的花鸟纹饰要经过调整布局使其结构工整，疏密合理。而现在绣好的花鸟纹饰一般都是空心的，只有纹饰的结构部分，和平绣当中使用的纸模比较相似，而这部分空心要用另外的刺绣技法来“填芯”，最后在把打磨的发光的铜片嵌上去，马尾绣作品才算才完整。</p>
+<p>水族马尾绣制作工艺独特，按工序可分为六个步骤。</p>
+<h2 id="刺绣技法"><a href="#刺绣技法" class="headerlink" title="刺绣技法"></a>刺绣技法</h2><p>在制作马尾绣的过程当中会用到不同配合绣法，以下十八种是使用最普遍的刺绣技法：</p>
+<ol>
+<li>绗针绣</li>
+<li>平绣</li>
+<li>数纱绣</li>
+<li>锁绣</li>
+<li>刺针绣</li>
+<li>滚针绣</li>
+<li>空心绣</li>
+<li>破线绣</li>
+<li>结线绣</li>
+<li>螺形绣</li>
+<li>泡绣</li>
+<li>松针绣</li>
+<li>辫绣</li>
+<li>打子绣</li>
+<li>挑绣</li>
+<li>挽针绣</li>
+<li>贴布绣</li>
+<li>布带绣</li>
+</ol>
+<h2 id="含有马尾绣的工艺品分类"><a href="#含有马尾绣的工艺品分类" class="headerlink" title="含有马尾绣的工艺品分类"></a>含有马尾绣的工艺品分类</h2><p>水族马尾绣可划分为日用品类和工艺品类两大类。日用品类包括服装类、围腰类、绣花鞋类、童帽类、背带类、荷包类等；工艺品类，主要为各种装帧精美的马尾绣绣片。</p>
 
                 
             </div>
@@ -524,7 +444,7 @@ Markdown 的文件标题
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2023/04/18/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/">http://example.com/2023/04/18/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</a>
+                    <a href="http://example.com/2023/04/19/%E9%A9%AC%E5%B0%BE%E7%BB%A3%E5%88%B6%E4%BD%9C%E8%BF%87%E7%A8%8B%E5%8F%8A%E5%85%B6%E5%88%86%E6%AD%A5%E9%AA%A4%EF%BC%8C%E5%88%BA%E7%BB%A3%E6%89%8B%E6%B3%95%EF%BC%8C%E7%BB%A3%E5%93%81%E7%B1%BB%E5%9E%8B%E5%92%8C%E7%9B%B8%E5%85%B3%E6%96%B0%E9%97%BB%E6%8A%A5%E9%81%93/">http://example.com/2023/04/19/%E9%A9%AC%E5%B0%BE%E7%BB%A3%E5%88%B6%E4%BD%9C%E8%BF%87%E7%A8%8B%E5%8F%8A%E5%85%B6%E5%88%86%E6%AD%A5%E9%AA%A4%EF%BC%8C%E5%88%BA%E7%BB%A3%E6%89%8B%E6%B3%95%EF%BC%8C%E7%BB%A3%E5%93%81%E7%B1%BB%E5%9E%8B%E5%92%8C%E7%9B%B8%E5%85%B3%E6%96%B0%E9%97%BB%E6%8A%A5%E9%81%93/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -605,9 +525,10 @@ Markdown 的文件标题
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2023/04/19/%E9%A9%AC%E5%B0%BE%E7%BB%A3%E5%88%B6%E4%BD%9C%E8%BF%87%E7%A8%8B%E5%8F%8A%E5%85%B6%E5%88%86%E6%AD%A5%E9%AA%A4%EF%BC%8C%E5%88%BA%E7%BB%A3%E6%89%8B%E6%B3%95%EF%BC%8C%E7%BB%A3%E5%93%81%E7%B1%BB%E5%9E%8B%E5%92%8C%E7%9B%B8%E5%85%B3%E6%96%B0%E9%97%BB%E6%8A%A5%E9%81%93/">
                     <div class="card-image">
@@ -624,9 +545,9 @@ Markdown 的文件标题
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2023-04-19
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-04-19
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -635,6 +556,7 @@ Markdown 的文件标题
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -645,13 +567,12 @@ Markdown 的文件标题
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2023/04/17/hello-world/">
+                <a href="/2023/04/18/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/">
                     <div class="card-image">
                         
+                        <img src="/medias/featureimages/gensokyo1.jpg" class="responsive-img" alt="第一个博客">
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="Hello World">
-                        
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">第一个博客</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -662,7 +583,7 @@ Markdown 的文件标题
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-04-17
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-04-18
                             </span>
                         <span class="publish-author">
                             
